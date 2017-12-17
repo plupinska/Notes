@@ -1,8 +1,6 @@
 
 ### Some useful stuff for logging git info in bashrc
 
-`alias g=“git”`
-
 `g() {
   if [[ $# > 0 ]]; then
     git $@

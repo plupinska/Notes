@@ -3,7 +3,7 @@
 ## Part I: General workflow stuff
 
 #### Saving aliases to git config:
-Git config `—global alias.name ‘command’`
+`Git config —global alias.name ‘command’`
 
 #### STASHING
 `git stash -u`
