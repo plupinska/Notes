@@ -49,6 +49,17 @@ n addition, we can spruce this up by adding a little color. Colors are specified
 
 ## Part II: Undoing all of your mistakes 🙏🙏🙏🙏🙏🙏
 
+
+#### YOU'VE COMMITTED SENSITIVE INFO ONTO YOUR REMOTE REPO
+[See this for more complete details](https://help.github.com/articles/removing-sensitive-data-from-a-repository/)
+
+If you committed a sensitive file that was supposed to be gitignored.
+This will overwrite your existing tags so be careful what you're doing here.
+Read above for a comprehensive overview.
+`git filter-branch --force --index-filter`
+`'git rm --cached --ignore-unmatch PATH-TO-YOUR-FILE-WITH-SENSITIVE-DATA' \`
+`--prune-empty --tag-name-filter cat -- --all`
+
 #### AMENDING COMMITS
 `git add file_i_forgot_to_add.rb`
 `git commit --amend --no-edit`
