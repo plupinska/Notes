@@ -1,1 +1,6 @@
 https://cssstats.com/
+
+Multipart form data in post requests
+https://coderwall.com/p/c-mu-a/http-posts-in-ruby
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Disposition
+w3.org/Protocols/rfc1341/7_2_Multipart.html
